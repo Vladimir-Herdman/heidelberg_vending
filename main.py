@@ -8,11 +8,6 @@ import user_io2 as ui2
 
 def main():
     print("Welcome to the Vending Machine!")
-    cash = ui.get_money()
-    ui.get_choice(inv.inventory_list, cash)
-
-def main2():
-    print("Welcome to the Vending Machine!")
     cash = ui2.get_money()
 
     choice = ''
@@ -43,11 +38,4 @@ def main2():
             inv.inventory_list[choice - 1]['quantity'] -= 1
 
 if __name__ == '__main__':
-    choice_here = int(input("Your's (1) or the team's main (2): "))
-    print(f"\n{'':-<60}\n")
-    if choice_here == 1:
-        main()
-    elif choice_here == 2:
-        main2()
-    else:
-        print("You did not make the right choice, 1 or 2")
+    main()
