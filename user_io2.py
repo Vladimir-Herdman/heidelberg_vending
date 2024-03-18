@@ -1,3 +1,6 @@
+"""
+This module gets the money of the user, and then their choice of what to buy.
+"""
 def get_money():
     """
     Takes in user input to determine a cash amount that is greater than 0, then returns that amount
