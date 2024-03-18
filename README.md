@@ -1,2 +1,6 @@
-# heidelberg_vending
-A Heidelberg Project made with a team for CPS 202
+# Heidelberg Vending Machine
+A simple team collaboration project developed for a CPS 202 class
+## Collaborators
+- Vladimir-Herdman
+- SlaughteredJ23
+- 
